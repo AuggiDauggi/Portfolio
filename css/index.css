@@ -235,6 +235,39 @@ h3:hover {
   vertical-align: middle;
   color: #F4F2F3;
 }
+.nettside {
+  background-image: linear-gradient(#0d324d, #7f5a83);
+  width: 700px;
+  height: 350px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #1c292d;
+  border-width: 10px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.nettside:hover {
+  width: 750px;
+  height: 400px;
+  transition: 0.3s;
+  border-color: #ee8434;
+  transition-timing-function: ease-in-out;
+}
+
+.nettside h1 {
+  font-family: monstro;
+  font-size: 60px;
+  position: relative;
+  top: 45%;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  color: #F4F2F3;
+}
 
 h1 {
   font-family: Monstro;
